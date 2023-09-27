@@ -8,7 +8,7 @@ export function Login(): any {
     return (
         <div className='container'>
             <div className="container-login">
-                <div className="wrap login">
+                <div className="wrap-login">
                     <form className="login-form">
                         <span className="login-form-title">Bem vindo!</span>
                         <span className="login-form-title">
@@ -16,12 +16,12 @@ export function Login(): any {
                         </span>
 
                         <div className="wrap-input">
-                            <input type="email" />
+                            <input className='input' type="email" />
                             <span className="focus-input" data-placeholder='Email'></span>
                         </div>
 
                         <div className="wrap-input">
-                            <input type="password" />
+                            <input className='input' type="password" />
                             <span className="focus-input" data-placeholder='Password'></span>
                         </div>
 
