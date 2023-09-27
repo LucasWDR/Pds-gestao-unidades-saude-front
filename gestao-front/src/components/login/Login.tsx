@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
-import imgIntroApp from '../../assets/login/introJp.jpg'
+import imgIntroApp from '../../assets/login/introJp.png'
 import './styles/loginStyles.css';
 
 export function Login(): any {
